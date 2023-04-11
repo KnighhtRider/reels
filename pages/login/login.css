@@ -1,25 +1,17 @@
-.signup-container {
+.login-container {
   display: flex;
   justify-content: center;
   align-items: center;
   margin-top: 10rem;
   text-align: center; 
-  flex-direction: column;
+  flex-direction: row;
 }
 
-.signup-card {
+.login-card {
   width: 25rem;
-  height: 28rem;
+  height: 20.5rem;
   border: 1px solid #ccc;  
   padding: 1rem;
-}
-
-.tnc{
-  width:25rem;
-  padding:1rem;
-  margin-top: 0.5rem;
-  color:gray;
-  text-align: center;
 }
 
 .bottom-card{
@@ -30,3 +22,16 @@
   color:gray;
 }
 
+.insta-mob-bg {
+  background-image: url('../../assets//insta-mob-bg.png');
+  width: 454px;
+  height: 610px;
+}
+
+.my-carousel  {
+  width: 56%;
+  height: auto;
+  position: relative;
+  top: 6.24rem;
+  left: 9rem;
+}
